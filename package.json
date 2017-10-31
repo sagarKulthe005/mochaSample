@@ -1,0 +1,24 @@
+{
+  "name": "demoapi",
+  "version": "1.0.0",
+  "description": "for unit testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "lint": "jshint .",
+    "validate": "npm ls"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0"
+  },
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ]
+}

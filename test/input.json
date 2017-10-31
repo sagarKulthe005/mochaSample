@@ -1,0 +1,7 @@
+{
+  "apiBaseUrl": "http://localhost:3000/",
+  "apiForAddition": "add?param1=12&param2=14",
+  "apiForSubstraction": "substract?param1=14&param2=9",
+  "apiForMultiplication": "multiply?param1=12&param2=14",
+  "apiForDividation": "divide?param1=84&param2=14"
+}
